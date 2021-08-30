@@ -1,5 +1,5 @@
 # Sami-Latte-Layout
-Sami Latte Layout
+Sami Latte Layout    
 **Description**  
 Latte Layout with 2 floating docks and 2 panels.  
 **Plasmoids Widget List**  
