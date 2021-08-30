@@ -225,7 +225,7 @@ raiseOnDesktopChange=false
 timerHide=700
 timerShow=200
 viewType=0
-visibility=9
+visibility=8
 wallpaperplugin=org.kde.image
 
 [Containments][12][Applets][237]
@@ -294,7 +294,6 @@ disablePanelShadowForMaximized=true
 iconSize=250
 inConfigureAppletsMode=true
 isStickedOnBottomEdge=true
-lastSidebarVisibilityMode=9
 lengthExtMargin=9
 maxLength=85
 panelOutline=true
@@ -346,7 +345,7 @@ raiseOnDesktopChange=false
 timerHide=700
 timerShow=200
 viewType=0
-visibility=9
+visibility=8
 wallpaperplugin=org.kde.image
 
 [Containments][13][Applets][41]
@@ -419,7 +418,6 @@ disablePanelShadowForMaximized=true
 iconSize=250
 inConfigureAppletsMode=true
 isStickedOnBottomEdge=true
-lastSidebarVisibilityMode=9
 lengthExtMargin=9
 maxLength=85
 panelOutline=true
@@ -456,7 +454,7 @@ PreloadWeight=0
 activityId=
 formfactor=2
 immutability=1
-lastScreen=-1
+lastScreen=16
 layoutId=
 location=3
 plugin=org.kde.plasma.private.systemtray
@@ -601,7 +599,7 @@ raiseOnDesktopChange=false
 settingsComplexity=4
 timerHide=700
 timerShow=200
-viewType=0
+viewType=1
 visibility=0
 wallpaperplugin=org.kde.image
 
@@ -621,7 +619,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][25][Applets][200][Configuration]
-PreloadWeight=31
+PreloadWeight=12
 SystrayContainmentId=201
 
 [Containments][25][Applets][220]
@@ -689,7 +687,7 @@ immutability=1
 plugin=org.kde.shutdownOrSwitch
 
 [Containments][25][Applets][267][Configuration]
-PreloadWeight=63
+PreloadWeight=44
 
 [Containments][25][Applets][267][Configuration][ConfigDialog]
 DialogHeight=558
@@ -707,7 +705,11 @@ widgetListIconSize=0
 immutability=1
 plugin=AvalonMenu
 
+[Containments][25][Applets][269][Configuration]
+PreloadWeight=76
+
 [Containments][25][Applets][269][Configuration][General]
+favoriteSystemActions=logout,lock-screen
 favoritesPortedToKAstats=true
 
 [Containments][25][ConfigDialog]
@@ -723,8 +725,6 @@ alignmentUpgraded=true
 appletOrder=269;254;196;261;200;220;226;267;266
 appletShadowsEnabled=false
 autoDecreaseIconSize=false
-autoSizeEnabled=false
-backgroundRadius=50
 configurationSticker=true
 disablePanelShadowForMaximized=true
 dragActiveWindowEnabled=true
@@ -736,6 +736,7 @@ maxLength=99
 mouseWheelActions=false
 panelOutline=true
 panelPosition=10
+panelShadows=false
 panelSize=100
 panelTransparency=60
 plasmaBackgroundForPopups=true
