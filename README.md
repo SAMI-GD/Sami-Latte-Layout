@@ -1,8 +1,8 @@
 # Sami-Latte-Layout
 Sami Latte Layout
-**Description**
-Latte Layout with 2 floating docks and 2 panels.
-**Plasmoids Widget List**
+**Description**  
+Latte Layout with 2 floating docks and 2 panels.  
+**Plasmoids Widget List**  
  - Avalon Menu 
  - Application Title
  - Global Menu
